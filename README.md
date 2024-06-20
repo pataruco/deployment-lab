@@ -1,12 +1,12 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-## React accelarator deployment lab
+# React accelarator deployment lab
 
-### What is ?
+## What is ?
 
 Is a vanilla React application that uses client routing with React Router that will be use to demo a deployment using Netlify
 
-### How to install
+## How to install
 
 - Clone this repo
 
