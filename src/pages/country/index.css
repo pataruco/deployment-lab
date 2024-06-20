@@ -1,0 +1,5 @@
+.country {
+  & picture {
+    max-width: 20%;
+  }
+}

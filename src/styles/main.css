@@ -33,6 +33,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+picture {
+  display: block;
+}
+
 img,
 svg {
   display: block;
