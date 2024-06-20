@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { fetchAllCountries } from '../services/fetch-all-countries';
 
 const CountryList = () => {
@@ -18,14 +19,17 @@ const CountryList = () => {
           const {
             name: { common },
             flags: { svg },
+            cca3: isoCode,
           } = country;
 
           return (
             <li key={common}>
-              <h3>{common}</h3>
-              <picture>
-                <img src={svg} alt={common} />
-              </picture>
+              <Link to={`/country/${isoCode}`}>
+                <h3>{common}</h3>
+                <picture>
+                  <img src={svg} alt={common} />
+                </picture>
+              </Link>
             </li>
           );
         })}
