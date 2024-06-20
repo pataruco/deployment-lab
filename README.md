@@ -1,8 +1,34 @@
-# React + Vite
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React accelarator deployment lab
 
-Currently, two official plugins are available:
+### What is ?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Is a vanilla React application that uses client routing with React Router that will be use to demo a deployment using Netlify
+
+### How to install
+
+- Clone this repo
+
+```sh
+# From GitHub
+git clone git@github.com:pataruco/deployment-lab.git
+
+# From General Assembly GitHub Enterprise
+git clone git@git.generalassemb.ly:pataruco/deployment-lab.git
+```
+
+- Install dependencies
+
+```sh
+cd deployment-lab
+npm install
+```
+
+## How to run it
+
+- Inside the project root folder
+
+```sh
+npm run dev
+```
