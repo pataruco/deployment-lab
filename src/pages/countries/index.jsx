@@ -1,8 +1,12 @@
+import './index.css';
+
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchAllCountries } from '../services/fetch-all-countries';
 
-const CountryList = () => {
+import Page from '../../components/page/index';
+import { fetchAllCountries } from '../../services/fetch-all-countries';
+
+const CountriesPage = () => {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
@@ -12,7 +16,7 @@ const CountryList = () => {
   }, []);
 
   return (
-    <>
+    <Page className="countries">
       <h2>Countries in the world</h2>
       <ul>
         {countries.map((country) => {
@@ -25,17 +29,17 @@ const CountryList = () => {
           return (
             <li key={common}>
               <Link to={`/country/${isoCode}`}>
-                <h3>{common}</h3>
                 <picture>
                   <img src={svg} alt={common} />
                 </picture>
+                <h3>{common}</h3>
               </Link>
             </li>
           );
         })}
       </ul>
-    </>
+    </Page>
   );
 };
 
-export default CountryList;
+export default CountriesPage;

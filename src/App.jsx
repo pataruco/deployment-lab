@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import CountriesPage from './pages/Countries';
 import CountryPage from './pages/Country';
 import HomePage from './pages/Home';
 import NotFoundPage from './pages/NotFound';
+import CountriesPage from './pages/countries';
 import WeatherPage from './pages/weather';
 
 function App() {
