@@ -3,7 +3,7 @@ import CountriesPage from './pages/Countries';
 import CountryPage from './pages/Country';
 import HomePage from './pages/Home';
 import NotFoundPage from './pages/NotFound';
-import WeatherPage from './pages/Weather';
+import WeatherPage from './pages/weather';
 
 function App() {
   return (
