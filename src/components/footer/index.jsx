@@ -2,7 +2,7 @@ import './index.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <p>
         Made with <span>❤️</span> for GA accelator course
       </p>

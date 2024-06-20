@@ -1,3 +1,5 @@
-footer {
-  padding: 0 var(--base-spacing);
+.footer {
+  padding: 0 var(--base-space);
+  background-color: var(--black);
+  color: var(--white);
 }

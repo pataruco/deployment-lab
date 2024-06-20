@@ -1,7 +1,7 @@
 import './index.css';
 
-import Header from '../Header';
 import Footer from '../footer';
+import Header from '../header';
 
 const Page = ({ children }) => {
   return (
