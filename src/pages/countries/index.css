@@ -1,0 +1,34 @@
+.countries {
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: var(--base-space);
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+  }
+
+  & li {
+    flex-basis: calc(20% - (4 * var(--base-space)));
+    aspect-ratio: 1 / 1;
+    border: 2px solid var(--black);
+    padding: calc(var(--base-space) / 2);
+  }
+
+  & li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  & picture {
+    border: 1px solid var(--black);
+  }
+
+  & h3 {
+    margin: 0;
+  }
+}

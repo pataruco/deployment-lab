@@ -1,0 +1,31 @@
+.header {
+  padding: var(--base-space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+
+  & > div {
+    max-width: 12.5%;
+    min-width: 100px;
+  }
+
+  & a {
+    color: var(--white);
+  }
+
+  & a:hover {
+    color: var(--white);
+    filter: brightness(85%);
+  }
+
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: var(--base-space);
+  }
+}
